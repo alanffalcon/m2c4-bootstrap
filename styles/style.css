@@ -1,0 +1,27 @@
+.container{
+    background-color: aqua;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+    margin: 10px;
+}
+
+.container-xxl{
+    background-color: red;
+    font-size: bold;
+    font-size: x-large;
+}
+
+.row{
+    padding: 5px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.col{
+    padding: 5px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Bootstrap-Tarea</title>
+    <link rel="icon" href="Imagenes/logo.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!-- Containers -->
+    <div class="titulos">Contenedores</div>
+    <div class="container-xxl">
+      Container 1 - xxl
+    </div>
+    <div class="container">
+      Container 2 - default
+    </div>
+    <!-- Grids -->
+    <div class="container titulos"> Grids
+      <div class="row"> Fila 1
+        <div class="col"> Columna 1 </div>
+        <div class="col"> Columna 2 </div>
+        <div class="col"> Columna 3 </div>
+      </div>
+      <div class="row"> Fila 2
+        <div class="col"> Columna 1 </div>
+        <div class="col"> Columna 2 </div>
+        <div class="col"> Columna 3 </div>
+      </div>
+      <div class="row"> Fila 3
+        <div class="col"> Columna 1 </div>
+        <div class="col"> Columna 2 </div>
+        <div class="col"> Columna 3 </div>
+      </div>
+    </div>
+
+    <!-- Lista -->
+    <div class="lista, titulos"> Lista y tipografia
+      <ul class="list-unstyled">
+        <li><p class="h1">This is a list.</p></li>
+        <li> <p class="h2">It appears completely unstyled.</p></li>
+        <li><h3>
+          Structurally, it's 
+          <small class="text-muted">still a list.</small>
+        </h3></li>
+        <li>However, this style only applies to immediate child elements.</li>
+        <li>Nested lists:
+          <ul>
+            <li>are unaffected by this style</li>
+            <li>will still show a bullet</li>
+            <li>and have appropriate left margin</li>
+          </ul>
+        </li>
+        <li>This may still come in handy in some situations.</li>
+      </ul>
+    </div>
+    <br><br><br>
+    <!-- Tablas -->
+    <table class="table titulos">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br><br>
+    <!-- Formulario -->
+    <div class="row">
+      <div class="col-5">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
